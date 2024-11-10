@@ -1,0 +1,33 @@
+openapi: 3.0.0
+info:
+  title: ClickHouse API
+  version: 1.0.0
+  description: API Documentation for ClickHouse Integration
+paths:
+  /api/visits:
+    get:
+      summary: Retrieve a list of visits
+      responses:
+        '200':
+          description: List of visits
+    post:
+      summary: Create a new visit
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              type: object
+              properties:
+                user_id:
+                  type: integer
+                visit_date:
+                  type: string
+                  format: date
+                page_views:
+                  type: integer
+                session_duration:
+                  type: integer
+      responses:
+        '201':
+          description: Visit created
