@@ -35,7 +35,6 @@ Features: Designed for MySQL, PostgreSQL, and MongoDB, with advanced query analy
 Pros: Open-source with a focus on database health, performance insights, and query tuning.
 Use Case: Excellent for MySQL and PostgreSQL environments needing deep database-specific insights.
 
-8. pgAdmin (for PostgreSQL)
 Features: Includes a dashboard for monitoring PostgreSQL performance, deadlock analysis, and query tuning.
 Pros: Free and specifically built for PostgreSQL with support for slow query analysis and performance monitoring.
 Use Case: Ideal for PostgreSQL users who need a free, database-specific monitoring tool.
