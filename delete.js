@@ -11,8 +11,8 @@ app.use(bodyParser.json());
 // Routes
 app.use('/api', routes);
 
-app.get("/api/", (req, res) =>{
-    res.json("server ruuning");
+app.get("/", (req, res) =>{
+    res.json("server ruuning.");
 });
 // Start server
 app.listen(PORT, () => {
